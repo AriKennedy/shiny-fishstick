@@ -30,6 +30,13 @@
 
 .logo {
     width: 120px;
+
+}
+
+.theme {
+    text-align: center;
+    display: flex;
+    align-items: start;
 }
 
 .login-form {
@@ -37,10 +44,6 @@
     flex-direction: column;
 }
 
-.login-form h1 {
-    font-size: 24px;
-    margin-bottom: 8px;
-}
 
 .login-form p {
     font-size: 14px;
