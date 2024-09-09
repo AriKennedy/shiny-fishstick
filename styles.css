@@ -1,194 +1,200 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f3f2ef;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f2ef;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .background {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    background-color: #ffffff;
-    padding: 20px;
-    margin-top: 10%;
-    width: 100%;
-    max-width: 400px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 10%;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .google-pic {
-    width: 10%;
-    margin-right: 3%;
+  width: 10%;
+  margin-right: 3%;
 }
 
 .apple-pic {
-    width: 8%;
-    margin-right: 5%;
+  width: 8%;
+  margin-right: 5%;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .logo {
-    width: 120px;
+  width: 120px;
 }
 
 .full-logo {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    margin-left: 50px;
-    margin-top: 20px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
 .login-form {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .login-form h1 {
-    font-size: 32px;
-    color: #333333;
-    margin-bottom: 5px;
+  font-size: 32px;
+  color: #333333;
+  margin-bottom: 5px;
 }
 
 .login-form p {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .login-form input {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
 }
 
 .show {
-    position: absolute;
-    top: 40%;
-    right: 37%;
-    color: blue;
+  position: absolute;
+  top: 40%;
+  right: 37%;
+  color: blue;
 }
 
 .login-form button {
-    width: 100%;
-    padding: 12px;
-    background-color: #0a66c2;
-    color: #fff;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-bottom: 15px;
+  width: 100%;
+  padding: 20px;
+  background-color: #0a66c2;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 15px;
 }
 
 .login-form button:hover {
-    background-color: #004182;
+  background-color: #004182;
 }
 
 .forgot-password {
-    text-align: center;
-    color: #0a66c2;
-    text-decoration: none;
-    font-size: 14px;
-    margin-bottom: 20px;
+  text-align: center;
+  color: #0a66c2;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .forgot-password:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .divider {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #666;
-    font-size: 14px;
-    margin: 20px 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin: 20px 0;
 }
 
 .divider hr {
-    flex-grow: 1;
-    border: none;
-    border-top: 1px solid #ccc;
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #ccc;
 }
 
 .divider span {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .google-signin {
-    width: 100%;
-    padding: 12px;
-    background-color: #ffffff;
-    color: #333333;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  padding: 5px;
+  background-color: #ffffff;
+  color: #333333;
+  border: 1px solid #575050;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .policy {
-    font-size: smaller;
-    margin-bottom: 15px;
+  font-size: smaller;
+  margin-bottom: 15px;
 }
 
 .google-signin:hover {
-    background-color: #f8f9fa;
+  background-color: #f8f9fa;
 }
 
 .google-signin::before {
-    content: '';
-    display: inline-block;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png');
-    background-size: contain;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+  content: "";
+  display: inline-block;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png");
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 .join-now {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 6%;
 }
 
-.join-now a {
-    color: #0a66c2;
-    text-decoration: none;
-    font-weight: bold;
+.join p {
+  color: #0a66c2;
+  position: fixed;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
 }
 
 .join-now a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+.copyright {
+  text-align: center;
+  padding: 10px;
 }
 
 .copyright {
     text-align: center;
-    padding: 10px;
+    font-size: smaller;
 }
