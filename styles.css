@@ -25,13 +25,24 @@ body {
 .container {
     background-color: #ffffff;
     padding: 20px;
+    margin-top: 10%;
     width: 100%;
     max-width: 400px;
     border-radius: 8px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-header {
+.google-pic {
+    width: 10%;
+    margin-right: 3%;
+}
+
+.apple-pic {
+    width: 8%;
+    margin-right: 5%;
+}
+
+.header {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
@@ -72,6 +83,13 @@ header {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
+}
+
+.show {
+    position: absolute;
+    top: 40%;
+    right: 37%;
+    color: blue;
 }
 
 .login-form button {
@@ -168,4 +186,9 @@ header {
 
 .join-now a:hover {
     text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
 }
