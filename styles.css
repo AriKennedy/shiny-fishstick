@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f3f2ef;
   justify-content: center;
@@ -65,17 +65,17 @@ body {
   align-items: baseline;
 }
 
-.login-form h1 {
+.login-form .sign-in {
   font-size: 32px;
   color: #333333;
   margin-bottom: 5px;
 }
 
-.login-form p {
+.login-form .desc {
   margin-bottom: 25px;
 }
 
-.login-form input {
+.login-form .input {
   width: 100%;
   padding: 20px;
   margin-bottom: 15px;
@@ -91,7 +91,7 @@ body {
   color: blue;
 }
 
-.login-form button {
+.login-form .submit {
   width: 100%;
   padding: 20px;
   background-color: #0a66c2;
@@ -103,7 +103,7 @@ body {
   margin-bottom: 15px;
 }
 
-.login-form button:hover {
+.login-form .submit:hover {
   background-color: #004182;
 }
 
